@@ -483,7 +483,7 @@ function initializeDiscordBot() {
 
     try {
  
-        await command.execute(interaction, botClient);
+        await command.execute(interaction, global.botClient);
     } catch (error) {
         console.error(error);
         const embed = new MessageEmbed()
