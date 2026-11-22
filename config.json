@@ -12,7 +12,7 @@
     "join_users": true,
     "leave_after_success": true,
     "leave_time": 60000,
-    "join_message": "You have 3 minutes to ready up and get in a lobby filled with bots! | dsc.gg/iron-web10",
+    "join_message": "You have 3 minutes to ready up and get in a lobby filled with bots!",
     "invite_status": "Invite ✔️ | hacking.tel on ig",
     "invite_onlinetype": "online",
     "inuse_status": "In Use Wait ❌ | hacking.tel on ig",
