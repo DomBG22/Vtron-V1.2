@@ -378,7 +378,7 @@ const fetchVersion = require('../utils/version');
 
   const managePartySize = () => {
     const messages = {
-      1: [bot_invite_status, bot_invite_onlinetype, "PRIVATE", false, "Time has stopped!"], 
+      1: [bot_invite_status, bot_invite_onlinetype, "PUBLIC", false, "Time has stopped!"], 
       2: [bot_use_status, bot_use_onlinetype, "", false, bot_join_message], 
       3: [bot_use_status, bot_use_onlinetype, "", false, bot_join_message],
       4: [bot_use_status, bot_use_onlinetype, "", false, bot_join_message],
