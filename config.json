@@ -20,7 +20,7 @@
   },
   "discord": {
     "run_discord_client": true,
-    "status": "By undefined_name",
+    "status": "Vtron discord",
     "status_type": "WATCHING",
     "disable_crash_command": true, 
     "send_webhook": false
