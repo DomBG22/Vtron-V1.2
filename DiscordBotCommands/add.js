@@ -12,7 +12,7 @@ module.exports = {
     ),
   async execute(interaction, botClient) {
     const user = interaction.options.getString('user');
-    global.botClient.addFriend(user);
+    await botClient.friend.add(user);
     const embed = new MessageEmbed()
       .setColor('#00FF00')
       .setTitle('User Added')
