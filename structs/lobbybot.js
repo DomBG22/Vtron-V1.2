@@ -75,7 +75,7 @@ const fetchVersion = require('../utils/version');
     const partyInstance = botClient.party;
     botClient.setStatus(bot_invite_status);
     await botClient.party.me.setOutfit(cid);
-    await botClient.party.setPrivacy(Enums.PartyPrivacy.PRIVATE);
+    await botClient.party.setPrivacy(Enums.PartyPrivacy.PUBLIC);
     await botClient.party.me.setLevel(level);
     await botClient.party.me.setBanner(banner);
     await botClient.party.me.setBackpack(bid);
